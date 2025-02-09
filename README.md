@@ -1,0 +1,2 @@
+# Tcl Error Handling Bug
+This example demonstrates an uncommon error in Tcl related to error handling.  The `get_element` procedure checks for an index out of bounds error; however, if an error occurs, there's no mechanism to gracefully handle it.  The solution shows improved error handling.
